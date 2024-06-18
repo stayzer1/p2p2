@@ -252,8 +252,14 @@ html {
   color: #fff;
 }
 
+.abs-main-img {
+  rotate: -15deg;
+}
+
 .img-main-abs1 {
   display: none;
+  mix-blend-mode: luminosity;
+  rotate: 15deg;
 }
 
 @media screen and (max-width: 1450px) {
@@ -344,8 +350,8 @@ html {
   .img-main-abs1 {
     display: block;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: -35px;
+    left: -49px;
   }
 }
 
