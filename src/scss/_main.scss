@@ -7,8 +7,8 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 0px;
+  justify-content: center;
+  gap: clamp(0.313rem, -8.178rem + 13.253vw, 3.75rem);
 }
 .bkg-image {
   position: absolute;
@@ -101,7 +101,7 @@
   rotate: -15deg;
 }
 .main__image {
-  height: 100%;
+  height: 665px;
   .img-main-info {
     width: 100%;
     height: 100%;
@@ -146,8 +146,9 @@
   }
   .img-abs-2 {
     top: unset;
-    bottom: -227px;
-    right: 0;
+    bottom: -214px;
+    right: -58px;
+    width: 100px;
   }
   .main-container {
     max-width: 100%;
