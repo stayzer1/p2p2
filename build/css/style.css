@@ -297,13 +297,17 @@ html {
 }
 
 @media screen and (max-width: 1024px) {
+  .main__image {
+    height: 100%;
+  }
+
   .main--section {
     height: 100%;
   }
 
   .img-main-info {
-    width: clamp(20.5rem, 7.351rem + 53.943vw, 41.875rem);
-    height: clamp(22.563rem, 4.646rem + 73.502vw, 51.688rem);
+    width: clamp(20.5rem, 7.351rem + 53.943vw, 41.875rem) !important;
+    height: clamp(22.563rem, 4.646rem + 73.502vw, 51.688rem) !important;
   }
 
   .img-abs-1 {
